@@ -11,6 +11,7 @@ namespace LoginForm.Controllers
     {
         // GET: Home
        UserContext db=new UserContext();
+        ["Details"]
         public ActionResult Index()
         {
             return View();
